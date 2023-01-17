@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         Provider().getATM(success: { [weak self] result in
             guard let self else { return }
             self.data = result
-            print(self.data)
+            
         } ,failure: { errorString in
             print(errorString)
         })
