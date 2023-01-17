@@ -12,7 +12,6 @@ import CoreLocation
 class ViewController: UIViewController {
     
     
-    var location =
     var marker = GMSMarker()
     
     @IBOutlet weak var mapView: GMSMapView!
